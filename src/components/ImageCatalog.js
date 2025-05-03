@@ -344,7 +344,7 @@ const ImageCatalog = () => {
     <div className="p-6 min-h-screen bg-gradient-to-br from-pink-200 via-yellow-100 to-blue-200">
       <div className="flex items-center justify-center gap-4 mb-6">
         <img
-          src={require("../assets/logo.png")} // replace with your actual path
+          src={require("../assets/logo.png")}
           alt="Equal Opportunity Logo"
           className="h-16 w-16 object-contain"
         />
