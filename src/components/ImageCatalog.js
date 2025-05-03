@@ -21,6 +21,7 @@ import img12 from "../assets/112.jpg";
 import img17 from "../assets/117.jpg";
 import img8 from "../assets/108.jpg";
 import img9 from "../assets/109.jpg";
+import logo from "../assets/logo.png";
 
 const imageData = [
   {
@@ -341,9 +342,16 @@ const imageData = [
 const ImageCatalog = () => {
   return (
     <div className="p-6 min-h-screen bg-gradient-to-br from-pink-200 via-yellow-100 to-blue-200">
-      <h5 className="text-4xl font-extrabold mb-6 text-center bg-gradient-to-r from-blue-500 via-pink-500 to-red-500 text-transparent bg-clip-text drop-shadow-lg">
-        Triveni Sales
-      </h5>
+      <div className="flex items-center justify-center gap-4 mb-6">
+        <img
+          src={require("../assets/logo.png")} // replace with your actual path
+          alt="Equal Opportunity Logo"
+          className="h-16 w-16 object-contain"
+        />
+        <h5 className="text-4xl font-extrabold bg-gradient-to-r from-blue-500 via-pink-500 to-red-500 text-transparent bg-clip-text drop-shadow-lg">
+          Triveni Sales
+        </h5>
+      </div>
 
       <h2 className="text-2xl font-extrabold mb-4 text-left bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 text-transparent bg-clip-text drop-shadow-md  mt-20 underline decoration-2">
         Arch File / Box File
