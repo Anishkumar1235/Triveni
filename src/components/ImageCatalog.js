@@ -1,4 +1,26 @@
 import React from "react";
+import img1 from "../assets/101.jpg";
+import img2 from "../assets/102.jpg";
+import img11 from "../assets/111.jpg";
+import img10 from "../assets/110.jpg";
+import img7 from "../assets/107.jpg";
+import img18 from "../assets/118.jpg";
+import img23 from "../assets/123.jpg";
+import img25 from "../assets/125.jpg";
+import img26 from "../assets/126.jpg";
+import img32 from "../assets/132.jpg";
+import img33 from "../assets/133.jpg";
+import img6 from "../assets/106.jpg";
+import img16 from "../assets/116.jpg";
+import img24 from "../assets/124.jpg";
+import img22 from "../assets/122.jpg";
+import img21 from "../assets/121.jpg";
+import img20 from "../assets/120.jpg";
+import img19 from "../assets/119.jpg";
+import img12 from "../assets/112.jpg";
+import img17 from "../assets/117.jpg";
+import img8 from "../assets/108.jpg";
+import img9 from "../assets/109.jpg";
 
 const imageData = [
   {
@@ -6,16 +28,14 @@ const imageData = [
     title: "Premium Arch File",
     description: "Product Code : EO001",
     price: "M.R.P : 180/-",
-    imageUrl:
-      "https://5.imimg.com/data5/DT/TE/RH/SELLER-20513237/xerox-a4-paper.jpg",
+    imageUrl: img1,
   },
   {
     id: 2,
     title: "Premium double rexine Arch file with rado",
     description: "Product Code : EO002",
     price: "M.R.P : 225/-",
-    imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2024/3/397084616/KR/BS/HK/11534293/lever-arch-files-500x500.jpg",
+    imageUrl: img2,
   },
   {
     id: 3,
@@ -23,7 +43,7 @@ const imageData = [
     description: "Product Code : EO021(L)",
     price: "M.R.P : 225/-",
     imageUrl:
-      "https://www.restaurantstore.co.uk/images/big/RSS/FE/V-FS340336.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2022/4/QG/OE/EL/11460528/4.jpeg",
   },
   {
     id: 4,
@@ -31,76 +51,71 @@ const imageData = [
     description: "Product Code : EO004",
     price: "M.R.P : 225/-",
     imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2023/9/348758620/NH/CV/AX/58462861/rex-pvc-lever-arch-file-500x500.jpg",
+      "https://dgduupz79pcvd.cloudfront.net/productimages/hamelin/l/400107439_1100.jpg",
   },
   {
     id: 5,
     title: "Premium Small Voucher File",
     description: "Product Code : EO003",
     price: "M.R.P : 170/-",
-    imageUrl: "https://m.media-amazon.com/images/I/51+ZOBDZTtL.jpg",
+    imageUrl:
+      "https://5.imimg.com/data5/EU/AG/MY-35101865/voucher-file-250x250.jpg",
   },
   {
     id: 6,
     title: "Jagannath Arch File",
     description: "Product Code : ****",
     price: "M.R.P : 150/-",
-    imageUrl: "https://source.unsplash.com/300x200/?lake",
+    imageUrl: img6,
   },
   {
     id: 7,
     title: "Jagannath Voucher File",
     description: "Product Code : ****",
     price: "M.R.P : 170/-",
-    imageUrl: "https://source.unsplash.com/300x200/?canyon",
+    imageUrl: img7,
   },
   {
     id: 8,
     title: "A3 Arch File",
     description: "Product Code : ****",
     price: "M.R.P : 249/-",
-    imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2024/7/435746321/QY/VV/UD/106679542/barsons-lever-arch-file-500x500.jpg",
+    imageUrl: img8,
   },
   {
     id: 9,
     title: "2D Ring Binder File",
     description: "Product Code : EO011",
     price: "M.R.P : 170/-",
-    imageUrl:
-      "https://www.jiomart.com/images/product/original/rvidv4mkxo/tulman-2-pack-ring-binder-file-2d-a4-size-tough-durable-a4-size-ring-binder-box-board-file-for-certificates-document-holder-blue-product-images-orvidv4mkxo-p608908199-0-202405041252.jpg",
+    imageUrl: img9,
   },
   {
     id: 10,
     title: "Colour Board Cobra File",
     description: "Product Code : EO006(CB)",
     price: "M.R.P : 45/-",
-    imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2021/4/WL/CS/HG/3211917/office-files-500x500.jpg",
+    imageUrl: img10,
   },
   {
     id: 11,
     title: "Grey Board Cobra File",
     description: "Product Code : EO006(GB)",
     price: "M.R.P : 45/-",
-    imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2022/5/RS/OV/IC/86194737/4-500x500.png",
+    imageUrl: img11,
   },
   {
     id: 12,
     title: "Thick Cobra File",
     description: "Product Code : EO007(GB)",
     price: "M.R.P : 55/-",
-    imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2020/12/LE/UH/LG/16129777/cobra-file-500x500.jpg",
+    imageUrl: img12,
   },
   {
     id: 13,
     title: "Thick Cobra File",
     description: "Product Code : EO007(ECO)",
     price: "M.R.P : 55/-",
-    imageUrl:
-      "https://m.media-amazon.com/images/I/71+VNa9LsiL._AC_UF1000,1000_QL80_.jpg",
+    imageUrl: img12,
   },
   {
     id: 14,
@@ -108,146 +123,217 @@ const imageData = [
     description: "Product Code : EO008(GB+RB)",
     price: "M.R.P : 60/-",
     imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2023/10/355148183/ZT/DI/DZ/35113875/lamination-cobra-file-500x500.jpg",
+      "https://m.media-amazon.com/images/I/61tBLJJg3qL._AC_UF350,350_QL50_.jpg",
   },
   {
     id: 15,
     title: "1' Premium Cobra File With (double board pasting)",
     description: "Product Code : EO009(CB)",
     price: "M.R.P : 60/-",
-    imageUrl: "https://source.unsplash.com/300x200/?island",
+    imageUrl: "https://m.media-amazon.com/images/I/41RVHuEq6FL.jpg",
   },
   {
     id: 16,
     title: "1' Premium Cobra File",
     description: "Product Code : EO009(MB)",
     price: "M.R.P : 70/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img16,
   },
   {
     id: 17,
     title: "Jagannath Cobra File",
     description: "Product Code : ****",
     price: "M.R.P : 70/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img17,
   },
   {
     id: 18,
     title: "2 Flap Board file (red)",
     description: "Product Code : EO012 (red)",
     price: "M.R.P : 45/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img18,
   },
   {
     id: 19,
     title: "2 Flap Board File Thick (blue)",
     description: "Product Code : EO012(Blue)",
     price: "M.R.P : 50/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img19,
   },
   {
     id: 20,
     title: "2 Flap Board File with Laminated Board",
     description: "Product Code : EO012(L)",
     price: "M.R.P : 60/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img20,
   },
   {
     id: 21,
     title: "Tag File",
     description: "Product Code : EO013",
     price: "M.R.P : 30/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img21,
   },
   {
     id: 22,
     title: "Premium Tag File",
     description: "Product Code : EO014",
     price: "M.R.P : 45/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img22,
   },
   {
     id: 23,
     title: "Eco Laminated Tag File",
     description: "Product Code : EO014 (Eco)",
     price: "M.R.P : 35/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img23,
   },
   {
     id: 24,
     title: "Thread File",
     description: "Product Code : EO015",
     price: "M.R.P : 45/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img24,
   },
   {
     id: 25,
     title: "FourFlap Cover File Colour Board",
     description: "Product Code : EO016 (CB)",
     price: "M.R.P : 75/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img25,
   },
   {
     id: 26,
     title: "FourFlap Cover File Grey Board",
     description: "Product Code : EO016 (GB)",
     price: "M.R.P : 75/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img26,
   },
   {
     id: 27,
     title: "FourFlap Cover File ",
     description: "Product Code : EO016 (ECO)",
     price: "M.R.P : 70/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: "https://m.media-amazon.com/images/I/71vEFlDuQ5L.jpg",
   },
   {
     id: 28,
     title: "**********",
     description: "Product Code : EO018 (CB + HC)",
     price: "M.R.P : **/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: "",
   },
   {
     id: 29,
     title: "********",
     description: "Product Code : EO018 (GB + HC)",
     price: "M.R.P : **/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: "",
   },
   {
     id: 30,
     title: "Premium Cover File With half Cloth",
     description: "Product Code : EO017",
     price: "M.R.P : 80/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: "https://m.media-amazon.com/images/I/61iXogf2saL.jpg",
   },
   {
     id: 31,
     title: "Premium Cover File Laminated With Half Cloth",
     description: "Product Code : EO017 (L)",
     price: "M.R.P : 90/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl:
+      "https://rukminim3.flixcart.com/image/850/1000/kfikya80/file-folder/n/n/z/cover-file-for-documents-and-certificates-half-cloth-type-multi-original-imafvxsvt5fdhhhj.jpeg?q=20&crop=false",
   },
   {
     id: 32,
     title: "Advocate File With Half Cloth",
     description: "Product Code : EO019",
     price: "M.R.P : 140/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img32,
   },
   {
     id: 33,
     title: "Premium Advocate File With Full Cloth",
     description: "Product Code : EO017 (L)",
     price: "M.R.P : 180/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img33,
   },
   {
     id: 34,
     title: "Full Cloth in any of Above Verity (On demand Order)",
     description: "Product Code : EO017 (L)",
     price: "M.R.P : 20 Extra/-",
+    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+  },
+  {
+    id: 35,
+    title: "EO CANVAS BOARD WHITE 4 * 6",
+    description: "Product Code : EOCAN-WH4*6",
+    price: "M.R.P : 45/-",
+    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+  },
+  {
+    id: 36,
+    title: "EO CANVAS BOARD WHITE 5 * 7",
+    description: "Product Code : EOCAN-WH5*7",
+    price: "M.R.P : 60/-",
+    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+  },
+  {
+    id: 37,
+    title: "EO CANVAS BOARD WHITE 6 * 8",
+    description: "Product Code : EOCAN-WH6*8",
+    price: "M.R.P : 75/-",
+    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+  },
+  {
+    id: 38,
+    title: "EO CANVAS BOARD WHITE 8 * 10",
+    description: "Product Code : EOCAN-WH8*10",
+    price: "M.R.P : 95/-",
+    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+  },
+  {
+    id: 39,
+    title: "EO CANVAS BOARD WHITE 10 * 12",
+    description: "Product Code : EOCAN-WH10*12",
+    price: "M.R.P : 120/-",
+    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+  },
+  {
+    id: 40,
+    title: "EO CANVAS BOARD WHITE 12 * 16",
+    description: "Product Code : EOCAN-WH12*16",
+    price: "M.R.P : 180/-",
+    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+  },
+  {
+    id: 41,
+    title: "EO CANVAS BOARD WHITE 16 * 24",
+    description: "Product Code : EOCAN-WH16*24",
+    price: "M.R.P : 360/-",
+    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+  },
+  {
+    id: 42,
+    title: "EO CANVAS BOARD BLACK 6 * 8",
+    description: "Product Code : EOCAN-BK6*8",
+    price: "M.R.P : 95/-",
+    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+  },
+  {
+    id: 43,
+    title: "EO CANVAS BOARD BLACK 8 * 10",
+    description: "Product Code : EOCAN-BK8*10",
+    price: "M.R.P : 120/-",
+    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+  },
+  {
+    id: 44,
+    title: "EO CANVAS BOARD WHITE 10 * 12",
+    description: "Product Code : EOCAN-WH10*12",
+    price: "M.R.P : 150/-",
     imageUrl: "https://source.unsplash.com/300x200/?autumn",
   },
 ];
@@ -296,6 +382,15 @@ const ImageCatalog = () => {
               <div className="col-span-full my-6">
                 <h2 className="text-4xl font-bold text-center text-blue-600 underline">
                   4 Flap Cover File
+                </h2>
+              </div>
+            )}
+
+            {/* Fifth Title: 2 Flap File */}
+            {index === 34 && (
+              <div className="col-span-full my-6">
+                <h2 className="text-4xl font-bold text-center text-blue-600 underline">
+                  Canvas Board
                 </h2>
               </div>
             )}
