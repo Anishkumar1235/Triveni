@@ -340,21 +340,22 @@ const imageData = [
 
 const ImageCatalog = () => {
   return (
-    <div className="p-6 bg-gray-40 min-h-screen">
-      <h5 className="text-4xl font-bold mb-6 text-center">Triveni Sales</h5>
+    <div className="p-6 min-h-screen bg-gradient-to-br from-pink-200 via-yellow-100 to-blue-200">
+      <h5 className="text-4xl font-extrabold mb-6 text-center bg-gradient-to-r from-blue-500 via-pink-500 to-red-500 text-transparent bg-clip-text drop-shadow-lg">
+        Triveni Sales
+      </h5>
 
-      {/* Section Title: Arch File / Box File */}
-      <h2 className="text-2xl font-bold mb-4 text-left text-blue-700 underline">
+      <h2 className="text-3xl font-extrabold mb-4 text-left bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 text-transparent bg-clip-text drop-shadow-md underline decoration-2">
         Arch File / Box File
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-20">
         {imageData.map((item, index) => (
           <React.Fragment key={item.id}>
             {/* Section Title: Cobra File */}
             {index === 9 && (
               <div className="col-span-full my-6">
-                <h2 className="text-4xl font-bold text-center text-blue-600 underline">
+                <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text drop-shadow-lg underline decoration-2">
                   Cobra File
                 </h2>
               </div>
@@ -363,7 +364,7 @@ const ImageCatalog = () => {
             {/* Section Title: 2 Flap File */}
             {index === 17 && (
               <div className="col-span-full my-6">
-                <h2 className="text-4xl font-bold text-center text-blue-600 underline">
+                <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-emerald-400 via-cyan-500 to-blue-500 text-transparent bg-clip-text drop-shadow-md underline decoration-2">
                   2 Flap File
                 </h2>
               </div>
@@ -372,7 +373,7 @@ const ImageCatalog = () => {
             {/* Third Title: 2 Flap File */}
             {index === 20 && (
               <div className="col-span-full my-6">
-                <h2 className="text-4xl font-bold text-center text-blue-600 underline">
+                <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-fuchsia-500 via-pink-500 to-rose-500 text-transparent bg-clip-text drop-shadow-md underline decoration-2">
                   Tag File
                 </h2>
               </div>
@@ -380,7 +381,7 @@ const ImageCatalog = () => {
             {/* Fourth Title: 2 Flap File */}
             {index === 24 && (
               <div className="col-span-full my-6">
-                <h2 className="text-4xl font-bold text-center text-blue-600 underline">
+                <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-purple-600 via-indigo-500 to-blue-500 text-transparent bg-clip-text drop-shadow-md underline decoration-2">
                   4 Flap Cover File
                 </h2>
               </div>
@@ -389,7 +390,7 @@ const ImageCatalog = () => {
             {/* Fifth Title: 2 Flap File */}
             {index === 34 && (
               <div className="col-span-full my-6">
-                <h2 className="text-4xl font-bold text-center text-blue-600 underline">
+                <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-green-500 via-yellow-400 to-pink-500 text-transparent bg-clip-text drop-shadow-lg underline decoration-2">
                   Canvas Board
                 </h2>
               </div>
@@ -423,6 +424,48 @@ const ImageCatalog = () => {
           </React.Fragment>
         ))}
       </div>
+      <footer className="rounded-2xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white mt-20 py-8 px-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          <div>
+            <h2 className="text-3xl font-extrabold tracking-wide text-shadow-md">
+              TRIVENI SALES
+            </h2>
+            <p className="text-sm mt-1 italic text-gray-200">(ISO 9001:2015)</p>
+
+            <div className="mt-4 space-y-2 text-sm">
+              <div className="flex items-center gap-2">
+                <span className="bg-yellow-400 p-2 rounded-full text-black shadow-lg transform hover:scale-110 transition-all">
+                  📍
+                </span>
+                <span>50, Forest Park, Bhubaneswar - 751009</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="bg-yellow-400 p-2 rounded-full text-black shadow-lg transform hover:scale-110 transition-all">
+                  ✉️
+                </span>
+                <span>trivenisales02@gmail.com</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="bg-yellow-400 p-2 rounded-full text-black shadow-lg transform hover:scale-110 transition-all">
+                  📞
+                </span>
+                <span>0674 - 2595717, +91 8260093443</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex justify-center md:justify-end items-center h-full">
+            <a
+              href="https://www.trivenisales.com"
+              className="flex items-center gap-2 bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-6 py-3 rounded-full hover:from-yellow-500 hover:to-orange-600 transition-all transform hover:scale-105"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🌐 www.trivenisales.com
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
