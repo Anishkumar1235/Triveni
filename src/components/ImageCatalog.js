@@ -345,11 +345,11 @@ const ImageCatalog = () => {
         Triveni Sales
       </h5>
 
-      <h2 className="text-3xl font-extrabold mb-4 text-left bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 text-transparent bg-clip-text drop-shadow-md underline decoration-2">
+      <h2 className="text-2xl font-extrabold mb-4 text-left bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 text-transparent bg-clip-text drop-shadow-md  mt-20 underline decoration-2">
         Arch File / Box File
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-10">
         {imageData.map((item, index) => (
           <React.Fragment key={item.id}>
             {/* Section Title: Cobra File */}
