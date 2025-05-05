@@ -473,7 +473,7 @@ const ImageCatalog = () => {
               </div>
             )}
 
-            {/* Third Title: 2 Flap File */}
+            {/* Third Title: 2  Flap File */}
             {index === 20 && (
               <div className="col-span-full my-6">
                 <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-fuchsia-500 via-pink-500 to-rose-500 text-transparent bg-clip-text drop-shadow-md underline decoration-2">
