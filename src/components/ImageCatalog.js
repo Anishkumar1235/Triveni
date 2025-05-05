@@ -445,8 +445,7 @@ const ImageCatalog = () => {
       </div>
       {/* Animated Address */}
       <p className="mt-10 text-lg font-semibold bg-gradient-to-r from-purple-500 via-yellow-400 to-green-400 text-transparent bg-clip-text animate-marquee whitespace-nowrap overflow-hidden">
-        Triveni Sales, 50 Forest Park, Bhubaneswar - 751009 Phone no.-
-        8271093372
+        <b>Order Now</b> | Phone no.- 8271093372
       </p>
 
       <h2 className="text-2xl font-extrabold mb-4 text-left bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-500 text-transparent bg-clip-text drop-shadow-md  mt-20 underline decoration-2">
