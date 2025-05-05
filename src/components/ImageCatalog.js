@@ -37,6 +37,10 @@ import img47 from "../assets/147.jpg";
 import img48 from "../assets/148.jpg";
 import img49 from "../assets/149.jpg";
 import img50 from "../assets/150.jpg";
+import img51 from "../assets/151.jpg";
+import img52 from "../assets/152.jpg";
+import img53 from "../assets/153.jpg";
+import img54 from "../assets/154.jpg";
 
 const imageData = [
   {
@@ -393,6 +397,34 @@ const imageData = [
     description: "Product Code : FOW01 (TUMBLER)",
     price: "M.R.P : 199/-",
     imageUrl: img50,
+  },
+  {
+    id: 51,
+    title: "Ashoka Emblem Orginer",
+    description: "Product Code : FOW0116",
+    price: "M.R.P : 790/-",
+    imageUrl: img51,
+  },
+  {
+    id: 52,
+    title: "India Shape Orginer",
+    description: "Product Code : FOW017",
+    price: "M.R.P : 790/-",
+    imageUrl: img52,
+  },
+  {
+    id: 53,
+    title: "House Shape Pen Stand",
+    description: "Product Code : FO018",
+    price: "M.R.P : 650/-",
+    imageUrl: img53,
+  },
+  {
+    id: 54,
+    title: "Hexagon Calender",
+    description: "Product Code : FOW019",
+    price: "M.R.P : 650/-",
+    imageUrl: img54,
   },
 ];
 
