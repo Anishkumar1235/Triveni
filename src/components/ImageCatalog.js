@@ -22,6 +22,9 @@ import img17 from "../assets/117.jpg";
 import img8 from "../assets/108.jpg";
 import img9 from "../assets/109.jpg";
 import logo from "../assets/logo.png";
+import img36 from "../assets/136.jpg";
+import img35 from "../assets/135.jpg";
+import img37 from "../assets/137.jpg";
 
 const imageData = [
   {
@@ -272,21 +275,21 @@ const imageData = [
     title: "EO CANVAS BOARD WHITE 4 * 6",
     description: "Product Code : EOCAN-WH4*6",
     price: "M.R.P : 45/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img35,
   },
   {
     id: 36,
     title: "EO CANVAS BOARD WHITE 5 * 7",
     description: "Product Code : EOCAN-WH5*7",
     price: "M.R.P : 60/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img36,
   },
   {
     id: 37,
     title: "EO CANVAS BOARD WHITE 6 * 8",
     description: "Product Code : EOCAN-WH6*8",
     price: "M.R.P : 75/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img37,
   },
   {
     id: 38,
