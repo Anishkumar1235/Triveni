@@ -79,7 +79,7 @@ const imageData = [
     description: "Product Code : EO003",
     price: "M.R.P : 170/-",
     imageUrl:
-      "https://5.imimg.com/data5/EU/AG/MY-35101865/voucher-file-250x250.jpg",
+      "https://m.media-amazon.com/images/I/418S9g4T57L._BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
   },
   {
     id: 6,
