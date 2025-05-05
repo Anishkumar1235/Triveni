@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 @layer utilities {
-    @keyframes spin-slow {
-      from {
-        transform: rotate(0deg);
+    @keyframes marquee {
+      0% {
+        transform: translateX(-100%);
       }
-      to {
-        transform: rotate(360deg);
+      100% {
+        transform: translateX(100%);
       }
     }
   
-    .animate-spin-slow {
-      animation: spin-slow 10s linear infinite;
+    .animate-marquee {
+      animation: marquee 15s linear infinite;
     }
   }
