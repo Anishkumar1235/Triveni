@@ -25,6 +25,18 @@ import logo from "../assets/logo.png";
 import img36 from "../assets/136.jpg";
 import img35 from "../assets/135.jpg";
 import img37 from "../assets/137.jpg";
+import img38 from "../assets/138.jpg";
+import img39 from "../assets/139.jpg";
+import img40 from "../assets/140.jpg";
+import img42 from "../assets/142.jpg";
+import img43 from "../assets/143.jpg";
+import img44 from "../assets/144.jpg";
+import img45 from "../assets/145.jpg";
+import img46 from "../assets/146.jpg";
+import img47 from "../assets/147.jpg";
+import img48 from "../assets/148.jpg";
+import img49 from "../assets/149.jpg";
+import img50 from "../assets/150.jpg";
 
 const imageData = [
   {
@@ -293,52 +305,94 @@ const imageData = [
   },
   {
     id: 38,
-    title: "EO CANVAS BOARD WHITE 8 * 10",
-    description: "Product Code : EOCAN-WH8*10",
-    price: "M.R.P : 95/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    title: "Apple",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img38,
   },
   {
     id: 39,
-    title: "EO CANVAS BOARD WHITE 10 * 12",
-    description: "Product Code : EOCAN-WH10*12",
-    price: "M.R.P : 120/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    title: "Book ",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img39,
   },
   {
     id: 40,
-    title: "EO CANVAS BOARD WHITE 12 * 16",
-    description: "Product Code : EOCAN-WH12*16",
-    price: "M.R.P : 180/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    title: "India Gate",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img40,
   },
   {
     id: 41,
-    title: "EO CANVAS BOARD WHITE 16 * 24",
-    description: "Product Code : EOCAN-WH16*24",
-    price: "M.R.P : 360/-",
+    title: "India Shape",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
     imageUrl: "https://source.unsplash.com/300x200/?autumn",
   },
   {
     id: 42,
-    title: "EO CANVAS BOARD BLACK 6 * 8",
-    description: "Product Code : EOCAN-BK6*8",
-    price: "M.R.P : 95/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    title: "Trophy",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img42,
   },
   {
     id: 43,
-    title: "EO CANVAS BOARD BLACK 8 * 10",
-    description: "Product Code : EOCAN-BK8*10",
-    price: "M.R.P : 120/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    title: "Train",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img43,
   },
   {
     id: 44,
-    title: "EO CANVAS BOARD WHITE 10 * 12",
-    description: "Product Code : EOCAN-WH10*12",
+    title: "Watch",
+    description: "Product Code : FOW01 (TUMBLER)",
     price: "M.R.P : 150/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: img44,
+  },
+  {
+    id: 45,
+    title: "Fish",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img45,
+  },
+  {
+    id: 46,
+    title: "Red Car",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img46,
+  },
+  {
+    id: 47,
+    title: "Globe",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img47,
+  },
+  {
+    id: 48,
+    title: "Incredible India",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img48,
+  },
+  {
+    id: 49,
+    title: "Blue Don't Limit",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img50,
+  },
+  {
+    id: 50,
+    title: "ECO Green",
+    description: "Product Code : FOW01 (TUMBLER)",
+    price: "M.R.P : 199/-",
+    imageUrl: img50,
   },
 ];
 
