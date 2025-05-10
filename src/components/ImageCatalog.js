@@ -51,6 +51,13 @@ import img61 from "../assets/161.jpg";
 import img62 from "../assets/162.png";
 import img63 from "../assets/163.jpg";
 import img64 from "../assets/164.png";
+import img65 from "../assets/165.jpg";
+import img66 from "../assets/166.jpg";
+import img67 from "../assets/167.jpg";
+import img68 from "../assets/168.jpg";
+import img69 from "../assets/169.jpg";
+import img70 from "../assets/170.jpg";
+import img71 from "../assets/171.jpg";
 
 const imageData = [
   {
@@ -510,6 +517,55 @@ const imageData = [
     price: "M.R.P : 300/-",
     imageUrl: img64,
   },
+  {
+    id: 65,
+    title: "RE-STICK PROMTS",
+    description: "Product Code : EO RS PR5 (60*3) ",
+    price: "M.R.P : 50/-",
+    imageUrl: img65,
+  },
+  {
+    id: 66,
+    title: "RE-STICK PROMTS",
+    description: "Product Code : EO RS PR4 (75*3) ",
+    price: "M.R.P : 50/-",
+    imageUrl: img66,
+  },
+  {
+    id: 67,
+    title: "RE-STICK PROMTS",
+    description: "Product Code : EO RS PR3 (1*3) ",
+    price: "M.R.P : 50/-",
+    imageUrl: img67,
+  },
+  {
+    id: 68,
+    title: "RE-STICK",
+    description: "Product Code : EO RS 3X3 ",
+    price: "M.R.P : 45/-",
+    imageUrl: img68,
+  },
+  {
+    id: 69,
+    title: "RE-STICK",
+    description: "Product Code : EO RS 3X4 ",
+    price: "M.R.P : 55/-",
+    imageUrl: img69,
+  },
+  {
+    id: 70,
+    title: "RE-STICK",
+    description: "Product Code : EO RS 3X5 ",
+    price: "M.R.P : 65/-",
+    imageUrl: img70,
+  },
+  {
+    id: 71,
+    title: "RE-STICK",
+    description: "Product Code : EO RS 2X3 ",
+    price: "M.R.P : 35/-",
+    imageUrl: img71,
+  },
 ];
 
 const ImageCatalog = () => {
@@ -613,6 +669,15 @@ const ImageCatalog = () => {
               <div className="col-span-full my-6">
                 <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-green-500 via-yellow-400 to-pink-500 text-transparent bg-clip-text drop-shadow-lg underline decoration-2">
                   Paper
+                </h2>
+              </div>
+            )}
+
+            {/* Fifth Title:  2 Flap File */}
+            {index === 64 && (
+              <div className="col-span-full my-6">
+                <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-green-500 via-yellow-400 to-pink-500 text-transparent bg-clip-text drop-shadow-lg underline decoration-2">
+                  Re-Stick Pad
                 </h2>
               </div>
             )}
