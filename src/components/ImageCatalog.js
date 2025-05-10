@@ -44,6 +44,7 @@ import img54 from "../assets/154.jpg";
 import img55 from "../assets/155.jpg";
 import img56 from "../assets/156.jpg";
 import img57 from "../assets/157.jpg";
+import img58 from "../assets/158.jpg";
 
 const imageData = [
   {
@@ -449,6 +450,13 @@ const imageData = [
     description: "Product Code : EO MT2420",
     price: "M.R.P : 40/-",
     imageUrl: img57,
+  },
+  {
+    id: 58,
+    title: "PACKING TAPE 48MMX40MM",
+    description: "Product Code : EOPT4840 (B)",
+    price: "M.R.P : 40/-",
+    imageUrl: img58,
   },
 ];
 
