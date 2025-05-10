@@ -24,7 +24,7 @@ import img9 from "../assets/109.jpg";
 import logo from "../assets/logo.png";
 import img36 from "../assets/136.jpg";
 import img35 from "../assets/135.jpg";
-import img37 from "../assets/137.jpg";
+import img37 from "../assets/137.png";
 import img38 from "../assets/138.jpg";
 import img39 from "../assets/139.jpg";
 import img40 from "../assets/140.jpg";
@@ -45,6 +45,12 @@ import img55 from "../assets/155.jpg";
 import img56 from "../assets/156.jpg";
 import img57 from "../assets/157.jpg";
 import img58 from "../assets/158.jpg";
+import img59 from "../assets/159.jpg";
+import img60 from "../assets/160.jpg";
+import img61 from "../assets/161.jpg";
+import img62 from "../assets/162.png";
+import img63 from "../assets/163.jpg";
+import img64 from "../assets/164.png";
 
 const imageData = [
   {
@@ -306,9 +312,9 @@ const imageData = [
   },
   {
     id: 37,
-    title: "EO CANVAS BOARD WHITE 6 * 8",
-    description: "Product Code : EOCAN-WH6*8",
-    price: "M.R.P : 75/-",
+    title: "EO CANVAS BOARD BLACK",
+    description: "Product Code : EOCAN-BK6*8",
+    price: "M.R.P : 95/-",
     imageUrl: img37,
   },
   {
@@ -458,6 +464,52 @@ const imageData = [
     price: "M.R.P : 40/-",
     imageUrl: img58,
   },
+  {
+    id: 59,
+    title: "EO T-PIN",
+    description: "Product Code : ******",
+    price: "M.R.P : 50/-",
+    imageUrl: img59,
+  },
+  {
+    id: 60,
+    title: "EO ALPIN",
+    description: "Product Code : ******",
+    price: "M.R.P : 50/-",
+    imageUrl: img60,
+  },
+  {
+    id: 61,
+    title: "EO PUSH PIN",
+    description: "Product Code : ******",
+    price: "M.R.P : 50/-",
+    imageUrl: img61,
+  },
+  {
+    id: 62,
+    title: "EO THUMB TACK GOLDEN",
+    description: "Product Code : ******",
+    price: "M.R.P : 50/-",
+    imageUrl: img62,
+  },
+  {
+    id: 63,
+    title: "Fluroscent Paper",
+    description: "Product Code : TS FLA4 100 ",
+    price: "M.R.P : 240/-",
+    imageUrl: img63,
+  },
+  {
+    id: 64,
+    title: "Glossy Paper",
+    description: "Product Code :HPG 180 A4 20",
+    description: "Product Code : HPG 180 A4 50",
+    description: "Product Code :HPG 150 A4 50",
+    price: "M.R.P : 140/-",
+    price: "M.R.P : 350/-",
+    price: "M.R.P : 300/-",
+    imageUrl: img64,
+  },
 ];
 
 const ImageCatalog = () => {
@@ -548,6 +600,22 @@ const ImageCatalog = () => {
                 </h2>
               </div>
             )}
+            {/* Fifth Title:  2 Flap File */}
+            {index === 58 && (
+              <div className="col-span-full my-6">
+                <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-green-500 via-yellow-400 to-pink-500 text-transparent bg-clip-text drop-shadow-lg underline decoration-2">
+                  Pin
+                </h2>
+              </div>
+            )}
+            {/* Fifth Title:  2 Flap File */}
+            {index === 62 && (
+              <div className="col-span-full my-6">
+                <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-green-500 via-yellow-400 to-pink-500 text-transparent bg-clip-text drop-shadow-lg underline decoration-2">
+                  Paper
+                </h2>
+              </div>
+            )}
 
             <div>
               <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
@@ -569,6 +637,7 @@ const ImageCatalog = () => {
                 <p className="text-gray-900 text-md font-bold mt-2">
                   {item.description}
                 </p>
+
                 <div className="inline-block bg-green-400 p-1 rounded mt-1">
                   <p className="text-gray-900 font-bold">{item.price}</p>
                 </div>
