@@ -41,6 +41,9 @@ import img51 from "../assets/151.jpg";
 import img52 from "../assets/152.jpg";
 import img53 from "../assets/153.jpg";
 import img54 from "../assets/154.jpg";
+import img55 from "../assets/155.jpg";
+import img56 from "../assets/156.jpg";
+import img57 from "../assets/157.jpg";
 
 const imageData = [
   {
@@ -426,6 +429,27 @@ const imageData = [
     price: "M.R.P : 650/-",
     imageUrl: img54,
   },
+  {
+    id: 55,
+    title: "FOAM TAPE (48MMX5MTR)",
+    description: "Product Code : EO FT 48 (5)",
+    price: "M.R.P : 120/-",
+    imageUrl: img55,
+  },
+  {
+    id: 56,
+    title: "MASKING TAPE",
+    description: "Product Code : EO MT2440",
+    price: "M.R.P : 80/-",
+    imageUrl: img56,
+  },
+  {
+    id: 57,
+    title: "MASKING TAPE",
+    description: "Product Code : EO MT2420",
+    price: "M.R.P : 40/-",
+    imageUrl: img57,
+  },
 ];
 
 const ImageCatalog = () => {
@@ -504,6 +528,15 @@ const ImageCatalog = () => {
               <div className="col-span-full my-6">
                 <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-green-500 via-yellow-400 to-pink-500 text-transparent bg-clip-text drop-shadow-lg underline decoration-2">
                   Pen Stand
+                </h2>
+              </div>
+            )}
+
+            {/* Fifth Title:  2 Flap File */}
+            {index === 54 && (
+              <div className="col-span-full my-6">
+                <h2 className="text-4xl font-extrabold text-center bg-gradient-to-r from-green-500 via-yellow-400 to-pink-500 text-transparent bg-clip-text drop-shadow-lg underline decoration-2">
+                  Tape
                 </h2>
               </div>
             )}
