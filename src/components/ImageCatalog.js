@@ -20,44 +20,44 @@ import img19 from "../assets/119.jpg";
 import img12 from "../assets/112.jpg";
 import img17 from "../assets/117.jpg";
 import img8 from "../assets/108.jpg";
-import img9 from "../assets/109.jpg";
+import img9 from "../assets/109.png";
 import logo from "../assets/logo.png";
-import img36 from "../assets/136.jpg";
-import img35 from "../assets/135.jpg";
+import img36 from "../assets/136.png";
+import img35 from "../assets/135.png";
 import img37 from "../assets/137.png";
-import img38 from "../assets/138.jpg";
-import img39 from "../assets/139.jpg";
-import img40 from "../assets/140.jpg";
-import img42 from "../assets/142.jpg";
-import img43 from "../assets/143.jpg";
-import img44 from "../assets/144.jpg";
-import img45 from "../assets/145.jpg";
-import img46 from "../assets/146.jpg";
-import img47 from "../assets/147.jpg";
-import img48 from "../assets/148.jpg";
-import img49 from "../assets/149.jpg";
-import img50 from "../assets/150.jpg";
-import img51 from "../assets/151.jpg";
-import img52 from "../assets/152.jpg";
-import img53 from "../assets/153.jpg";
-import img54 from "../assets/154.jpg";
-import img55 from "../assets/155.jpg";
-import img56 from "../assets/156.jpg";
-import img57 from "../assets/157.jpg";
-import img58 from "../assets/158.jpg";
-import img59 from "../assets/159.jpg";
-import img60 from "../assets/160.jpg";
-import img61 from "../assets/161.jpg";
+import img38 from "../assets/138.png";
+import img39 from "../assets/139.png";
+import img40 from "../assets/140.png";
+import img42 from "../assets/142.png";
+import img43 from "../assets/143.png";
+import img44 from "../assets/144.png";
+import img45 from "../assets/145.png";
+import img46 from "../assets/146.png";
+import img47 from "../assets/147.png";
+import img48 from "../assets/148.png";
+import img49 from "../assets/149.png";
+import img50 from "../assets/150.png";
+import img51 from "../assets/151.png";
+import img52 from "../assets/152.png";
+import img53 from "../assets/153.png";
+import img54 from "../assets/154.png";
+import img55 from "../assets/155.png";
+import img56 from "../assets/156.png";
+import img57 from "../assets/157.png";
+import img58 from "../assets/158.png";
+import img59 from "../assets/159.png";
+import img60 from "../assets/160.png";
+import img61 from "../assets/161.png";
 import img62 from "../assets/162.png";
-import img63 from "../assets/163.jpg";
+import img63 from "../assets/163.png";
 import img64 from "../assets/164.png";
-import img65 from "../assets/165.jpg";
-import img66 from "../assets/166.jpg";
-import img67 from "../assets/167.jpg";
-import img68 from "../assets/168.jpg";
-import img69 from "../assets/169.jpg";
-import img70 from "../assets/170.jpg";
-import img71 from "../assets/171.jpg";
+import img65 from "../assets/165.png";
+import img66 from "../assets/166.png";
+import img67 from "../assets/167.png";
+import img68 from "../assets/168.png";
+import img69 from "../assets/169.png";
+import img70 from "../assets/170.png";
+import img71 from "../assets/171.png";
 
 const imageData = [
   {
@@ -683,12 +683,14 @@ const ImageCatalog = () => {
             )}
 
             <div>
-              <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                <img
-                  src={item.imageUrl}
-                  alt={item.title || "Product Image"}
-                  className="w-full h-[28rem] object-cover"
-                />
+              <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow min-h-[28rem] flex items-center justify-center">
+                <div className="transform scale-90">
+                  <img
+                    src={item.imageUrl}
+                    alt={item.title || "Product Image"}
+                    className="object-cover"
+                  />
+                </div>
               </div>
 
               <div className="mt-2 px-2">
