@@ -1,26 +1,30 @@
 import React from "react";
 import img1 from "../assets/101.jpg";
+import img4 from "../assets/104.jpg";
 import img2 from "../assets/102.jpg";
-import img11 from "../assets/111.jpg";
-import img10 from "../assets/110.jpg";
-import img7 from "../assets/107.jpg";
-import img18 from "../assets/118.jpg";
-import img23 from "../assets/123.jpg";
-import img25 from "../assets/125.jpg";
-import img26 from "../assets/126.jpg";
+import img11 from "../assets/111.png";
+import img10 from "../assets/110.png";
+import img13 from "../assets/113.jpeg";
+import img14 from "../assets/114.jpeg";
+import img15 from "../assets/115.jpeg";
+import img7 from "../assets/107.png";
+import img18 from "../assets/118.png";
+import img23 from "../assets/123.png";
+import img25 from "../assets/125.jpeg";
+import img26 from "../assets/126.jpeg";
 import img32 from "../assets/132.jpg";
-import img33 from "../assets/133.jpg";
+import img33 from "../assets/132.jpg";
 import img6 from "../assets/106.jpg";
-import img16 from "../assets/116.jpg";
-import img24 from "../assets/124.jpg";
-import img22 from "../assets/122.jpg";
-import img21 from "../assets/121.jpg";
-import img20 from "../assets/120.jpg";
-import img19 from "../assets/119.jpg";
-import img12 from "../assets/112.jpg";
-import img17 from "../assets/117.jpg";
+import img16 from "../assets/116.jpeg";
+import img24 from "../assets/124.png";
+import img22 from "../assets/122.png";
+import img21 from "../assets/121.png";
+import img20 from "../assets/120.png";
+import img19 from "../assets/119.png";
+import img12 from "../assets/111.png";
+import img17 from "../assets/117.png";
 import img8 from "../assets/108.jpg";
-import img9 from "../assets/109.png";
+import img9 from "../assets/109.jpg";
 import logo from "../assets/logo.png";
 import img36 from "../assets/136.png";
 import img35 from "../assets/135.png";
@@ -79,24 +83,21 @@ const imageData = [
     title: "Premium Leather Arch file(single side Rexine)",
     description: "Product Code : EO021(L)",
     price: "M.R.P : 225/-",
-    imageUrl:
-      "https://5.imimg.com/data5/SELLER/Default/2022/4/QG/OE/EL/11460528/4.jpeg",
+    imageUrl: "",
   },
   {
     id: 4,
     title: "Laminated Arch File",
     description: "Product Code : EO004",
     price: "M.R.P : 225/-",
-    imageUrl:
-      "https://dgduupz79pcvd.cloudfront.net/productimages/hamelin/l/400107439_1100.jpg",
+    imageUrl: img4,
   },
   {
     id: 5,
     title: "Premium Small Voucher File",
     description: "Product Code : EO003",
     price: "M.R.P : 170/-",
-    imageUrl:
-      "https://m.media-amazon.com/images/I/418S9g4T57L._BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
+    imageUrl: "",
   },
   {
     id: 6,
@@ -152,22 +153,21 @@ const imageData = [
     title: "Thick Cobra File",
     description: "Product Code : EO007(ECO)",
     price: "M.R.P : 55/-",
-    imageUrl: img12,
+    imageUrl: img13,
   },
   {
     id: 14,
     title: "Laminated Cobra File with Rainbow Board",
     description: "Product Code : EO008(GB+RB)",
     price: "M.R.P : 60/-",
-    imageUrl:
-      "https://m.media-amazon.com/images/I/61tBLJJg3qL._AC_UF350,350_QL50_.jpg",
+    imageUrl: img14,
   },
   {
     id: 15,
     title: "1' Premium Cobra File With (double board pasting)",
     description: "Product Code : EO009(CB)",
     price: "M.R.P : 60/-",
-    imageUrl: "https://m.media-amazon.com/images/I/41RVHuEq6FL.jpg",
+    imageUrl: img15,
   },
   {
     id: 16,
@@ -251,7 +251,7 @@ const imageData = [
     title: "FourFlap Cover File ",
     description: "Product Code : EO016 (ECO)",
     price: "M.R.P : 70/-",
-    imageUrl: "https://m.media-amazon.com/images/I/71vEFlDuQ5L.jpg",
+    imageUrl: "",
   },
   {
     id: 28,
@@ -272,15 +272,14 @@ const imageData = [
     title: "Premium Cover File With half Cloth",
     description: "Product Code : EO017",
     price: "M.R.P : 80/-",
-    imageUrl: "https://m.media-amazon.com/images/I/61iXogf2saL.jpg",
+    imageUrl: "",
   },
   {
     id: 31,
     title: "Premium Cover File Laminated With Half Cloth",
     description: "Product Code : EO017 (L)",
     price: "M.R.P : 90/-",
-    imageUrl:
-      "https://rukminim3.flixcart.com/image/850/1000/kfikya80/file-folder/n/n/z/cover-file-for-documents-and-certificates-half-cloth-type-multi-original-imafvxsvt5fdhhhj.jpeg?q=20&crop=false",
+    imageUrl: "",
   },
   {
     id: 32,
@@ -294,14 +293,14 @@ const imageData = [
     title: "Premium Advocate File With Full Cloth",
     description: "Product Code : EO017 (L)",
     price: "M.R.P : 180/-",
-    imageUrl: img33,
+    imageUrl: img32,
   },
   {
     id: 34,
     title: "Full Cloth in any of Above Verity (On demand Order)",
     description: "Product Code : EO017 (L)",
     price: "M.R.P : 20 Extra/-",
-    imageUrl: "https://source.unsplash.com/300x200/?autumn",
+    imageUrl: "",
   },
   {
     id: 35,
